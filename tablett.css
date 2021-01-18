@@ -1,0 +1,101 @@
+/* version tablette*/
+
+@media screen and (min-width: 481px) and (max-width: 800px) {
+
+nav li
+{
+    margin-left: 0rem;
+    padding: 0 2rem 0 0;
+}
+
+.main
+{
+    margin-right: 2rem;
+}
+
+.menumobil
+{
+    margin-left: 0;
+    padding: 0;
+}
+
+.menuheader
+{
+    padding: 2rem 2rem 0 0;
+}
+
+
+.stylesection
+{
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 2rem 0rem 0rem 0rem;
+}
+
+.styleaside
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+	grid-template-areas:	"asidetitle asidetitle asidetitle"
+                            "block1 block2 block3";
+    grid-column-gap: 2rem;
+    padding: 0rem 2rem 2rem 2rem;
+}
+
+.blockaside
+{
+    margin: 0rem 0rem 0rem 0rem;
+    
+}
+.figureaside
+{
+    width: 100%;
+    height: 10rem;
+}
+
+.imageaside
+{
+    border-radius: 1.3rem 1.3rem 0rem 0rem;
+}
+
+.titleaside
+{
+    height: auto;
+}
+
+.asidetitle
+{
+    margin: 2rem 0rem 0rem 0rem;
+}
+
+.textaside
+{
+    display: flex;
+    flex: 1;
+    align-items: flex-end;
+}
+
+.starsaside
+{
+    padding-top: 0.3rem;
+    padding-bottom: 0.2rem;
+    flex: none;
+}
+
+.activity
+{
+    margin-top: 2rem;
+}
+
+.contenerglobal
+{
+    grid-template-rows: 4rem 10rem 2rem 2rem 10rem;
+}
+
+.bottom
+{
+    justify-content: space-around;
+}
+
+
+}

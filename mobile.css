@@ -1,0 +1,163 @@
+/* version mobile*/
+
+@media screen and (max-width: 480px) {
+	
+nav li
+{
+    margin: 0rem;
+    padding: 0rem;
+    
+}
+
+.logo
+{
+    height: 0rem;
+    margin-bottom: 5rem;
+}
+.main
+{
+    padding: 2rem 2rem 0 2rem;
+}
+
+.main-header
+{
+    display: block;
+}
+
+.menumobil
+{
+    width: 50%;
+}
+
+.menusignup
+{
+    position: absolute;
+    right: 1rem;
+    top: 3rem;
+}
+
+.menuheader
+{
+    display: block;
+    border-bottom: 0.2rem solid #F2F2F2;
+}
+
+.menuheader[data-active=true]
+{
+    border-bottom: 0.2rem solid;
+    color: #0065FC;
+    border-top: none;
+    width: 100%;
+}
+
+.localization
+{
+    display: flex;
+    justify-content: center;
+}
+
+.search
+{
+    display: none;
+}
+
+.search2
+{
+    display: block;
+    background-color: #0065FC;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 1rem;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+.filters
+{
+    display: block;
+    padding-top: 2rem;
+}
+
+.button
+{
+    margin-top: 1.3rem;
+    margin-right: 1.3rem;
+    margin-left: 0rem;
+}
+
+.stylesection
+{
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 2rem 0rem 0rem 0rem;
+}
+
+.imagearticle
+{
+    height: 10rem;
+    width: 100%;
+}
+
+.starsaside
+{
+    height: 50%;
+}
+
+.stylearticle
+{
+    background-color: inherit;
+}
+
+.contener
+{
+    grid-template-columns: 1fr;
+}
+
+.blockarticle
+{
+    box-shadow: 0rem 0.3rem 0.3rem rgb(194, 193, 193);
+}
+
+.activity
+{
+    width: auto;
+    margin: 0rem 2rem 0rem 2rem;
+}
+
+.contenerglobal
+{
+    grid-template-columns: 1fr;
+    grid-template-rows: 3rem 15rem 15rem 15rem 15rem 15rem 15rem;
+    grid-template-areas: "link1"
+                         "link2"
+                         "link3"
+                         "link4"
+                         "link5"
+                         "link6"
+                         "link7";
+    margin-right: 2rem;
+    grid-row-gap: 2rem;
+}
+
+
+.bottom
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+
+.contenerfooter
+{
+    width: auto;
+}
+
+
+
+
+
+
+}

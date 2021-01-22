@@ -95,7 +95,7 @@ nav a
 	color: black;
 	padding-left: 1.3rem;
 	padding-right: 1.3rem;
-	width: calc(100% - 80px);
+	width: calc(100% - 70px);
 	border: none;
 	height: 40px;
 	border-top: 1px solid silver;
@@ -104,7 +104,17 @@ nav a
 
 .search
 {
-	background-color: red;
+	background-color: #0065FC;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 0 1rem 1rem 0;
+    cursor: pointer;
+}
+
+.search2
+{
+	background-color: #0065FC;
     color: white;
     font-weight: bold;
     border: none;
@@ -113,7 +123,7 @@ nav a
     cursor: pointer;
 }
 
-.search2
+.searching
 {
 	display: none;
 }
@@ -123,7 +133,8 @@ nav a
 	background-color: #F2F2F2;
     padding: 1rem 1.2rem;
     border-radius: 1rem 0 0 1rem;
-    text-align: center;
+	text-align: center;
+	height: 40px;
 }
 
 #filters

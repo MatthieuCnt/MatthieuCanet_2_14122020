@@ -61,6 +61,11 @@ nav li
     display: none;
 }
 
+.searching
+{
+    color: white;
+}
+
 .search2
 {
     display: block;
@@ -73,6 +78,7 @@ nav li
     height: 40px;
     line-height: 40px;
     cursor: pointer;
+    margin-left: -10px;
 }
 
 .filters
@@ -154,10 +160,5 @@ nav li
 {
     width: auto;
 }
-
-
-
-
-
 
 }

@@ -61,9 +61,11 @@ nav li
     display: none;
 }
 
-.searching
+i.searching
 {
-    color: white;
+    display: block;
+    margin-left: -7px;
+  
 }
 
 .search2

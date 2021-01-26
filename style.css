@@ -64,10 +64,15 @@ nav a
 	color: black;
 }
 
-.menuheader[data-active=true]
+.menuheader:hover[data-active=true]
 {
 	border-top: 0.2rem solid;
 	color: #0065FC;
+}
+
+.menuheader[data-active=true]
+{
+    color: #0065FC;
 }
 
 .menusignup
@@ -249,7 +254,7 @@ i.searching
 
 .articletitle
 {
-	margin: 2rem 2rem 2rem 2rem;
+	margin: 2rem 2rem 2rem 2rem;	
 }
 
 .asidetitle
@@ -383,7 +388,7 @@ i.searching
 
 .figureaside
 {
-	width: 35%;
+	width: 100%;
 }
 
 .imageaside
@@ -392,7 +397,7 @@ i.searching
 	border-radius: 1.3rem 0rem 0rem 1.3rem;
 	float: left;
 	max-height: 100%;
-	width: 100%;
+	width: 35%;
 	height: 100%;
 }
 

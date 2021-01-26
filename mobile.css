@@ -42,12 +42,17 @@ nav li
     border-bottom: 0.2rem solid #F2F2F2;
 }
 
-.menuheader[data-active=true]
+.menuheader:hover[data-active=true]
 {
     border-bottom: 0.2rem solid;
     color: #0065FC;
     border-top: none;
     width: 100%;
+}
+
+.menuheader[data-active=true]
+{
+    color: #0065FC;
 }
 
 .localization

@@ -83,9 +83,19 @@ nav a
 	font-weight: bold;
 }
 
-.main
+.article-header
 {
 	padding: 1.5rem 0 0 2rem;
+}
+
+.article-text
+{
+	padding: 0 0 0 2rem;
+}
+
+.main
+{
+	padding: 0.5rem 0 0 2rem;
 }
 
 .localization
